@@ -1,0 +1,67 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1739446958,
+        "narHash": "sha256-+/bYK3DbPxMIvSL4zArkMX0LQvS7rzBKXnDXLfKyRVc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "2ff53fe64443980e139eaa286017f53f88336dd0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "openfoam-v2312-repo": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1703172222,
+        "narHash": "sha256-xew1yydA5LFsmelE2d6OTefmTsBHDL0Fn5pT1GcrCmk=",
+        "ref": "OpenFOAM-v2312",
+        "rev": "1d8f0d55f79e6488dae75e4b839e358a88af77b5",
+        "revCount": 26876,
+        "submodules": true,
+        "type": "git",
+        "url": "https://develop.openfoam.com/Development/openfoam"
+      },
+      "original": {
+        "ref": "OpenFOAM-v2312",
+        "submodules": true,
+        "type": "git",
+        "url": "https://develop.openfoam.com/Development/openfoam"
+      }
+    },
+    "openfoam-v2406-repo": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1719219516,
+        "narHash": "sha256-vOXTZhZnTPqx7QDV7Me91MwEW40zquOifIF99l0yLZc=",
+        "ref": "OpenFOAM-v2406",
+        "rev": "630d60de3bb6c1646fcd4e0da39332332ca14a2d",
+        "revCount": 27169,
+        "submodules": true,
+        "type": "git",
+        "url": "https://develop.openfoam.com/Development/openfoam"
+      },
+      "original": {
+        "ref": "OpenFOAM-v2406",
+        "submodules": true,
+        "type": "git",
+        "url": "https://develop.openfoam.com/Development/openfoam"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "openfoam-v2312-repo": "openfoam-v2312-repo",
+        "openfoam-v2406-repo": "openfoam-v2406-repo"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

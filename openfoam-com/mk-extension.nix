@@ -1,5 +1,5 @@
 {
-  openfoam,
+#  openfoam,
   stdenv,
   mpi,
   makeWrapper,

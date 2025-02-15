@@ -1,7 +1,7 @@
 {
   testers,
   runCommand,
-  openfoam,
+#  openfoam,
 }:
 {
   version = testers.testVersion {
